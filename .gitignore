@@ -1,0 +1,12 @@
+.agents/.env
+.worktrees/*
+!.worktrees/.gitkeep
+repos/*
+!repos/.gitkeep
+.workspace/ports.json
+.workspace/.ports.lock
+.workspace/env/**/*.local
+.workspace/env/**/*.secret
+.evidence/
+.dev.log
+node_modules/

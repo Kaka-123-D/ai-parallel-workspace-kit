@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash .external-assets/worktree/ensure-worktree.sh *)",
+      "Bash(npm run dev*)",
+      "Bash(nohup npm run dev*)",
+      "Bash(npx tsc --noEmit*)",
+      "Bash(node .evidence/*)",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git worktree list*)",
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(sleep *)",
+      "Bash(lsof *)",
+      "Bash(mkdir -p *)",
+      "Read",
+      "Edit",
+      "Write",
+      "MultiEdit"
+    ]
+  }
+}
