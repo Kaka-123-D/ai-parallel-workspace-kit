@@ -16,7 +16,7 @@ npm i -D playwright            # trong repo canonical
 npx playwright install chromium
 ```
 
-Copy `scripts/evidence.mjs` vào `.external-assets/evidence/` của workspace.
+Helper nằm ở `.external-assets/evidence/evidence.mjs` của skeleton. Lấy riêng: `npx degit Kaka-123-D/ai-parallel-workspace-kit/.external-assets/evidence .external-assets/evidence`.
 
 ## 0. Dev server — chạy nền, để nguyên sau khi test
 

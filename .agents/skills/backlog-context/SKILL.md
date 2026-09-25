@@ -11,7 +11,7 @@ REST API trực tiếp.
 
 ## Cài một lần
 
-1. Copy `scripts/` vào `.external-assets/backlog/` của workspace.
+1. Script nằm ở `.external-assets/backlog/` và `.external-assets/gyazo/` của skeleton. Lấy riêng: `npx degit Kaka-123-D/ai-parallel-workspace-kit/.external-assets/backlog .external-assets/backlog && npx degit Kaka-123-D/ai-parallel-workspace-kit/.external-assets/gyazo .external-assets/gyazo`.
 2. Tạo `.agents/.env` từ `env.example`, điền `BACKLOG_DOMAIN` + `BACKLOG_API_KEY` (Backlog › Personal settings › API).
    Nhiều space: `BACKLOG_<NAME>_DOMAIN` / `_API_KEY` / `_PREFIXES`, script tự route theo prefix của key.
 3. `.agents/.env` phải gitignored. Không in giá trị ra chat.

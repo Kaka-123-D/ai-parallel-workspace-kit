@@ -25,7 +25,7 @@ lần gom hết**, kèm đề xuất.
 bash .external-assets/worktree/ensure-worktree.sh <TASK> [repo]
 ```
 
-Script (kèm trong `scripts/`): worktree `.worktrees/<TASK>/<repo>` trên `feat/<TASK>` từ `main` (đổi bằng
+Script `.external-assets/worktree/ensure-worktree.sh` (lấy riêng: `npx degit Kaka-123-D/ai-parallel-workspace-kit/.external-assets/worktree .external-assets/worktree`): worktree `.worktrees/<TASK>/<repo>` trên `feat/<TASK>` từ `main` (đổi bằng
 `WORKTREE_BASE=develop`) → symlink `node_modules` khi lockfile giống → copy env từ `.workspace/env/<repo>/`
 (không symlink) → cổng: ticket `ABC-12` → `3012`, slug → rảnh kế tiếp từ `3011`, có khoá chống tranh →
 ghi `.port` (app đọc file này) + `.workspace/ports.json` → in `WORKTREE=` `PORT=`.

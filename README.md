@@ -21,7 +21,11 @@ Windows: bật Developer Mode rồi `git clone -c core.symlinks=true …` để 
 npx degit Kaka-123-D/ai-parallel-workspace-kit/.agents/skills/backlog-context .agents/skills/backlog-context
 ```
 
-Skill có `scripts/` thì copy script vào `.external-assets/<tên>/` (xem `SKILL.md` của skill đó).
+Ba skill cần thêm tool trong `.external-assets/`: `backlog-context` → `backlog/` + `gyazo/`, `implement-flow` → `worktree/`, `browser-evidence` → `evidence/`. Lấy cùng cách:
+
+```bash
+npx degit Kaka-123-D/ai-parallel-workspace-kit/.external-assets/worktree .external-assets/worktree
+```
 
 ## Cấu trúc
 
